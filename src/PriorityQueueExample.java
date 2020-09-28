@@ -1,6 +1,4 @@
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.TreeSet;
+import java.util.*;
 
 //class Book implements Comparable<Book>{
 //    int id;
@@ -51,7 +49,6 @@ public class PriorityQueueExample {
         System.out.println(queue.remove());
         System.out.println(queue.remove());
         System.out.println(queue.remove());
-
     }
 
 }
