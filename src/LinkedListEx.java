@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -19,6 +20,11 @@ public class LinkedListEx {
         System.out.println("*******");
         while(listIterator.hasPrevious())
             System.out.println(listIterator.previous());
+
+        System.out.println(linkedList);
+        String[] array = linkedList.toArray(new String[linkedList.size()]);
+        System.out.println(Arrays.toString(array));
     }
+
 }
  
